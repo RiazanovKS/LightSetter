@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        constraintLayout = findViewById(R.id.layout);
+        constraintLayout = findViewById(R.id.const_lay);
         Button btnRed = (Button) findViewById(R.id.btnRed);
         Button btnYellow = (Button) findViewById(R.id.btnYellow);
         Button btnGreen = (Button) findViewById(R.id.btnGreen);
